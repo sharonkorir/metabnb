@@ -5,20 +5,20 @@ import twitter from '../assets/twitter.png';
 
 export function Footer(){
   return(
-    <div className="lg:px-20 py-10" id="footer">
+    <div className="px-40 py-10" id="footer">
       <footer className="footer p-10">
         <div>
           <img src={footerLogo} alt='metabnb logo'/>
         <div>
-        <div class="grid grid-flow-col gap-10 py-10">
-          <a href='https://www.facebook.com'><img alt='facebook logo'src={facebook}/></a> 
-          <a href='https://www.instagram.com'><img alt='facebook logo'src={instagram}/></a>
-          <a href='https://www.twitter.com'><img alt='facebook logo'src={twitter}/></a>  
+          <div className="grid grid-flow-col gap-10 py-10">
+            <a href='https://www.facebook.com'><img alt='facebook logo'src={facebook}/></a> 
+            <a href='https://www.instagram.com'><img alt='facebook logo'src={instagram}/></a>
+            <a href='https://www.twitter.com'><img alt='facebook logo'src={twitter}/></a>  
+          </div>
+        </div> 
+        <div>
+          <p className='text-sm'>© 2022 Metabnb</p>
         </div>
-      </div> 
-      <div>
-        <p className='text-sm'>© 2022 Metabnb</p>
-      </div>
         </div> 
         <div>
           <span className="footer-title normal-case">Community</span> 

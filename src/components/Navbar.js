@@ -2,7 +2,7 @@ import metabnb from '../assets/metabnb.png'
 
 export function Navbar(){
   return(
-    <div className="lg:px-20">
+    <div className="px-40">
       <div className="navbar bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
