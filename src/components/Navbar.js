@@ -17,7 +17,7 @@ export function Navbar(){
           </ul>
         </div>
         <a href='/'>
-          <img alt="metabnb logo" src={metabnb} className="max-h-5"/>
+          <img alt="metabnb logo" src={metabnb} className="max-h-8"/>
         </a>
         
       </div>
@@ -30,7 +30,7 @@ export function Navbar(){
         </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn normal-case" id='wallet' href='/'>Connect wallet</a>
+          <a className="btn normal-case w-44" id='wallet' href='/'>Connect wallet</a>
         </div>
       </div>
     </div>
