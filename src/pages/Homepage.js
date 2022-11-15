@@ -1,8 +1,12 @@
-import Navbar from '../components/Navbar';
+import { Navbar } from '../components/Navbar';
+import { Footer } from '../components/Footer';
 
 function Homepage(){
   return(
-    <Navbar/>
+    <div>
+      <Navbar/>
+      <Footer/>
+    </div>
   )
 }
 

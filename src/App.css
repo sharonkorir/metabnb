@@ -11,3 +11,20 @@
   font-size: 20px;
   line-height: 25px;
 }
+
+#footer{
+  background: #1D1D1E;
+  color: white;
+}
+
+.footer-title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* white */
+
+  color: #FFFFFF;
+
+}

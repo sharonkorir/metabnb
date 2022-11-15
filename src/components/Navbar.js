@@ -1,6 +1,6 @@
 import metabnb from '../assets/metabnb.png'
 
-function Navbar(){
+export function Navbar(){
   return(
     <div className="lg:px-20">
       <div className="navbar bg-base-100">
@@ -36,5 +36,3 @@ function Navbar(){
     </div>
   )
 }
-
-export default Navbar;
