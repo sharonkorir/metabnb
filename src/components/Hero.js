@@ -10,7 +10,7 @@ export function Hero(){
       <div className="flex">
         <div className="w-1/2 py-8 pr-28">
           <h1 className="text-5xl font-bold">Rent a <span className="text-pink-700">Place</span> away from <span className="text-pink-700">Home</span> in the <span className="text-pink-700">Metavarse</span></h1>
-          <p className="py-6 sm:py-2 leading-7 mb-4">we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
+          <p className="py-6 sm:py-2 leading-7 mb-4 text-lg">we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
           <div className="form-control">
             <div className="input-group">
               <input type="text" placeholder="Search for location" className="input input-bordered w-96 h-14" />
