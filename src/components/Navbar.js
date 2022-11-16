@@ -2,7 +2,7 @@ import metabnb from '../assets/metabnb.png'
 
 export function Navbar(){
   return(
-    <div className="px-40">
+    <div className="lg:px-40">
       <div className="navbar bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
@@ -17,9 +17,8 @@ export function Navbar(){
           </ul>
         </div>
         <a href='/'>
-          <img alt="metabnb logo" src={metabnb} className="max-h-8"/>
+          <img alt="metabnb logo" src={metabnb} className="h-[15px] md:h-[20px] lg:h-[30px]"/>
         </a>
-        
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">

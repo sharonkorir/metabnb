@@ -5,8 +5,8 @@ import twitter from '../assets/twitter.png';
 
 export function Footer(){
   return(
-    <div className="px-40 py-10" id="footer">
-      <footer className="footer p-10">
+    <div className='bg-[#1D1D1E] text-white'>
+      <footer className="footer py-10 px-10 lg:px-40">
         <div>
           <img src={footerLogo} alt='metabnb logo'/>
         <div>
