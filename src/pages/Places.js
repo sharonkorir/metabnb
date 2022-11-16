@@ -10,7 +10,7 @@ class PlacesPage extends Component {
     return (
       <React.Fragment>
         <Navbar />
-        <div className="px-20 py-20">
+        <div className="lg:px-40 lg:py-20">
           <Tabs />
           <PlacesGrid />
         </div>
