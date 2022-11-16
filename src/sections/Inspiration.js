@@ -1,11 +1,11 @@
-import home1 from '../assets/home/home1.png';
-import home2 from '../assets/home/home-2.png';
-import home3 from '../assets/home/home-3.png';
-import home4 from '../assets/home/home-4.png';
-import home5 from '../assets/home/home-5.png';
-import home6 from '../assets/home/home-6.png';
-import home7 from '../assets/home/home-7.png';
-import home8 from '../assets/home/home-8.png';
+import home1 from '../assets/home/one.png';
+import home2 from '../assets/home/two.png';
+import home3 from '../assets/home/three.png';
+import home4 from '../assets/home/four.png';
+import home5 from '../assets/home/five.png';
+import home6 from '../assets/home/six.png';
+import home7 from '../assets/home/seven.png';
+import home8 from '../assets/home/eight.png';
 
 export function Inspirations(){
   return(
