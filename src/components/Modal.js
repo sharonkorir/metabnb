@@ -17,7 +17,7 @@ class CryptoModal extends Component {
         aria-hidden="false"
         className={
           show
-            ? "fixed top-1/4 left-1/4 z-50 p-4 w-full  h-modal md:h-full"
+            ? "fixed top-1/3 left-1/3 z-50 p-4 w-full  h-modal md:h-full"
             : "hidden"
         }
       >
