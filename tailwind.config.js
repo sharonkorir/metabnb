@@ -4,9 +4,7 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily: ['Red Rose', 'cursive']
-    },
+    extend: {},
   },
   plugins: [require("daisyui")],
 }
