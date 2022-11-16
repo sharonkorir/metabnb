@@ -5,16 +5,12 @@ class PlaceCard extends Component {
   render() {
     const { place } = this.props;
     return (
-      <div className="w-1/4 p-4 mx-auto mb-4 center-items">
-
-
-            <img
-              className="p-2 rounded-t-lg"
-              src={place.source}
-              alt="product d"
-            />
-
-
+      <div className="lg:w-1/4 mx-auto mb-4 center-items">
+        <img
+          className="p-2 rounded-t-lg"
+          src={place.source}
+          alt="product d"
+        />
       </div>
     );
   }
