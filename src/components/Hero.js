@@ -3,7 +3,7 @@ import hero from '../assets/hero/hero.png'
 export function Hero(){
   return(
     
-    <div className='pt-10 px-4 lg:px-8 py-4 lg:py-[3rem] max-w-[1200px] mx-auto flex flex-col lg:flex-row items-center justify-between w-full'>
+    <div className='pt-10 py-4 lg:py-[3rem] max-w-[1200px] mx-auto flex flex-col lg:flex-row items-center justify-between w-full'>
     <div className='md:w-[70%] lg:w-[45%] text-center lg:text-left mx-auto'>
       <h1 className='text-[2rem] lg:text-[2.5rem] mb-8'>
         Rent a{" "}
